@@ -1,0 +1,62 @@
+a,
+#home-slider .caption h1 span, 
+#twitter-carousel .item span, 
+#footer .footer-bottom, 
+#single-portfolio .close-folio-item:hover, 
+.single-table.featured .btn.btn-primary, 
+.contact-info ul li a:hover, 
+#footer .footer-bottom a  {
+  color: #E08017;
+}
+
+.btn.btn-primary:hover,
+.btn-submit:hover {
+  background-color: #027db3
+}
+
+a:hover, a:focus {
+	color: #027db3;
+}
+
+.main-nav, 
+.service-icon, 
+.progress-bar.progress-bar-primary, 
+.single-table.featured, 
+.btn.btn-primary, 
+.twitter-icon .fa-twitter, 
+.twitter-left-control:hover, .twitter-right-control:hover, 
+.post-icon, 
+.entry-header .date:after, 
+.btn-loadmore:hover, 
+.btn-submit,
+#footer, 
+.caption .btn-start:hover, 
+.left-control:hover, 
+.right-control:hover, 
+.folio-overview a:hover {
+  background-color:#E08017;
+}
+
+.twitter-left-control:hover, 
+.twitter-right-control:hover, 
+.btn-loadmore:hover  {
+	border: 1px solid #E08017;
+}
+
+.caption .btn-start:hover, 
+.left-control:hover, 
+.right-control:hover {
+	border-color: #E08017;
+}
+
+.twitter-icon .fa-twitter:after {
+	border-color: #E08017 transparent transparent;
+}
+
+.our-services .col-sm-4:hover .service-icon {
+	background-color: #0c1852;
+}
+
+h2 {
+	color: #0c1852;
+}

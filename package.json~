@@ -1,0 +1,12 @@
+{
+  "name": "podepri",
+  "description": "NodeTemplateAckee",
+  "version": "2.0.0",
+  "author": {
+    "email": "pan.unicorn@ackee.cz",
+    "name": "Pan Unicorn"
+  },
+  "engines": {
+    "node": "^5.4.1"
+  }
+}

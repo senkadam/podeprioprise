@@ -1,0 +1,12 @@
+{
+  "name": "podepri",
+  "description": "podepriweb",
+  "version": "2.0.0",
+  "author": {
+    "email": "adam.senk@oprise.cz",
+    "name": "Opri Se"
+  },
+  "engines": {
+    "node": "^5.4.1"
+  }
+}
