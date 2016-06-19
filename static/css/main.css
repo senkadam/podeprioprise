@@ -285,10 +285,10 @@ section {
   border-radius: 4px;
   color: #fff;
   display: inline-block;
-  font-size: 36px;
-  height: 90px;
-  line-height: 90px;
-  width: 90px;  
+  font-size: 26px;
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
   -webkit-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
 }
@@ -660,12 +660,22 @@ section {
 ********Twitter CSS*******
 **************************/
 #twitter {
-  background-image: url(../images/twitter-bg.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ),url(../images/twitter-bg.jpg);
+  background-position: center 70%;
 }
 
 #twitter > div {
   text-align: center;
   position: relative;
+}
+
+#twitter > div.inner {
+  width: 50%;
+  margin: 0 auto;
+}
+
+img.company {
+height: 100px;
 }
 
 #twitter-carousel {
@@ -679,23 +689,16 @@ section {
   color: #fff;
 }
 
-.twitter-icon .fa-twitter {
+.twitter-icon .fa-building {
   font-size: 24px;
   height: 64px;
   width: 64px;
   line-height: 65px;
   border-radius: 50%; 
   position: relative;
+  background-color:#E08017;
 }
 
-.twitter-icon .fa-twitter:after {
-  position: absolute;
-  content: "";
-  border-width: 8px;
-  border-style: solid;
-  left: 24px;
-  bottom: -14px;
-}
 
 #twitter-carousel .item {
   padding: 0 55px;
