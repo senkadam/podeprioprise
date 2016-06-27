@@ -569,6 +569,10 @@ section {
   width: 100%;
 }
 
+div.member-info {
+  height: 140px;
+}
+
 .member-info h3 {
   margin-top: 35px;
 }
