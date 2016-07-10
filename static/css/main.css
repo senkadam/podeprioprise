@@ -11,6 +11,12 @@
 *******Typography******
 **************************/
 
+.modal-content  {
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -95,12 +101,10 @@ a:hover {
 }
 
 section {
-  padding: 90px 0;
+  padding: 50px 0;
 }
 
-section.portfolio {
-  padding: 0px 0;
-}
+
 
 .heading-portfolio {
   padding-top:20px;
@@ -108,11 +112,11 @@ section.portfolio {
 }
 
 .line-separator{
-  margin-top: 90px;
+  margin-top: 0px;
 }
 
 .heading {
-  padding-bottom:90px;
+  padding-bottom:35px;
 }
 
 .preloader {
@@ -306,28 +310,39 @@ section.portfolio {
   transition: background-color 0.2s ease;
 }
 
-.our-services .col-sm-4:hover .service-icon {
-  background-color: #333;
+.our-services .col-sm-6:hover .service-icon {
+  background-color: #027db3
 }
 
-.our-services .col-sm-4 {
+.our-services .col-md-4 {
+  margin-bottom: 32px;
+  padding-bottom: 20px;
+}
+
+.our-services .col-sm-6 {
   border-right:1px solid #f2f2f2;
   border-bottom:1px solid #f2f2f2;
   padding-bottom: 50px;
-  height: 300px;
+  height: 340px;
 }
 
-.our-services .col-sm-4:nth-child(4), 
-.our-services .col-sm-4:nth-child(5), 
-.our-services .col-sm-4:nth-child(6) {
+.our-services .col-sm-6:nth-child(4),
+.our-services .col-sm-6:nth-child(5),
+.our-services .col-sm-6:nth-child(6) {
   border-bottom:0;
   padding-top: 60px;
 }
 
-.our-services .col-sm-4:nth-child(3), 
-.our-services .col-sm-4:nth-child(6) {
+.our-services .col-sm-6:nth-child(3),
+.our-services .col-sm-6:nth-child(6) {
   border-right:0;
 }
+
+.our-services .col-md-4:hover .service-icon {
+  background-color: #027db3
+}
+
+
 
 .service-info h3 {
   margin-top: 35px;
@@ -338,7 +353,7 @@ section.portfolio {
 **************************/
 #about-us {
   background-image: url(../images/about-bg.jpg);
-  padding: 60px 0;
+  padding: 90px 0;
 }
 
 #about-us h2 {
@@ -414,6 +429,7 @@ section.portfolio {
 }
 
 .overlay .overlay-text {
+  padding: 30px;
   display: table-cell;
   vertical-align: middle;
 }
@@ -448,10 +464,6 @@ section.portfolio {
   color: #fff;
 }
 
-.folio-overview .folio-expand {
-  margin-top: -500px;
-  margin-left: -500px;
-}
 
 .folio-image, .folio-overview .folio-expand {
   -webkit-transition: all 0.8s ease-in-out;
@@ -486,7 +498,6 @@ section.portfolio {
 
 
 #single-portfolio {
-  padding: 90px 0;
   background: #f5f5f5;
   position: relative;
 }
@@ -510,9 +521,6 @@ section.portfolio {
 /*************************
 *********Team CSS*********
 **************************/
-#team {
-  padding-top: 0;
-}
 
 .team-members {
   margin-bottom: 25px;

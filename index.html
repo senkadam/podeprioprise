@@ -28,11 +28,11 @@
 <!--.preloader-->
 <div class="preloader"><i class="fa fa-circle-o-notch fa-spin"></i></div>
 <!--/.preloader-->
-
 <header id="home">
     <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
-            <div class="item active" style="background-image: url(images/slider/1.jpg); background-position: center center;">
+            <div class="item active"
+                 style="background-image: url(images/slider/1.jpg); background-position: center center;">
                 <div class="caption">
                     <h1 class="animated fadeInLeftBig">Podepři<span> Opři se</span></h1>
                     <p class="animated fadeInRightBig">O nás se opírají děti v nesnadné situaci.<br/>
@@ -73,19 +73,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand"  href="index.html">
+                <a class="navbar-brand" href="#">
                     <h1><img src="images/logo.png" alt="logo" height="42"></h1>
                 </a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="scroll active"><a href="#home">Opři se</a></li>
-                    <li class="scroll"><a href="#services">Service</a></li>
-                    <li class="scroll"><a href="#about-us">About Us</a></li>
+                    <li class="scroll"><a href="#services">O nás</a></li>
                     <li class="scroll"><a href="#portfolio">Jak jsme pomohli</a></li>
-                    <li class="scroll"><a href="#team">Team</a></li>
-                    <li class="scroll"><a href="#blog">Blog</a></li>
-                    <li class="scroll"><a href="#contact">Contact</a></li>
+                    <li class="scroll"><a href="#pricing">Podepři nás</a></li>
+                    <li class="scroll"><a href="#about-us">Staň se dobrovolníkem</a></li>
+                    <li class="scroll"><a href="#team">Tým</a></li>
+                    <li class="scroll"><a href="#twitter">Pro firmy</a></li>
+                    <li class="scroll"><a href="#blog">Co jste umožnili</a></li>
+                    <li class="scroll"><a href="#contact">kontakt</a></li>
                 </ul>
             </div>
         </div>
@@ -109,7 +110,7 @@
         </div>
         <div class="text-center our-services">
             <div class="row">
-                <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="service-icon">
                         <i class="fa fa-life-ring"></i>
                     </div>
@@ -120,7 +121,7 @@
                             aktivně pomáháme s integrací do společnosti.</p>
                     </div>
                 </div>
-                <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
+                <div class="col-md-4 wow fadeInDown"data-wow-duration="1000ms" data-wow-delay="450ms">
                     <div class="service-icon">
                         <i class="fa fa-heart-o"></i>
                     </div>
@@ -131,17 +132,7 @@
                             tak i oni mohou aktivně pomáhat dalším dětem.</p>
                     </div>
                 </div>
-                <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
-                    <div class="service-icon">
-                        <i class="fa fa-share-alt"></i>
-                    </div>
-                    <div class="service-info">
-                        <h3>Stálý a pravidelný kontakt</h3>
-                        <p>S dětmi udržujeme pravidelný rytmus, tím pádem mezi dětmi a dobrovolníky může vzniknout
-                            opravdové pouto a můžeme skutečně pomáhat.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
+                <div class="col-md-4 wow fadeInUp"data-wow-duration="1000ms" data-wow-delay="650ms">
                     <div class="service-icon">
                         <i class="fa fa-clock-o"></i>
                     </div>
@@ -154,7 +145,18 @@
                             mimo areály dětských domovů.</p>
                     </div>
                 </div>
-                <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
+                <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+                    <div class="service-icon">
+                        <i class="fa fa-share-alt"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3>Stálý a pravidelný kontakt</h3>
+                        <p>S dětmi udržujeme pravidelný rytmus, tím pádem mezi dětmi a dobrovolníky může vzniknout
+                            opravdové pouto a můžeme skutečně pomáhat.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 wow fadeInUp"data-wow-duration="1000ms" data-wow-delay="750ms">
                     <div class="service-icon">
                         <i class="fa fa-star-o"></i>
                     </div>
@@ -165,7 +167,7 @@
                             nenásilně mnoho možností, které mají.</p>
                     </div>
                 </div>
-                <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
+                <div class="col-md-4 wow fadeInUp"data-wow-duration="1000ms" data-wow-delay="850ms">
                     <div class="service-icon">
                         <i class="fa fa-users"></i>
                     </div>
@@ -202,16 +204,15 @@
                         <div class="overlay-content">
                             <div class="overlay-text">
                                 <div class="folio-info">
-                                    <h3>Time Hours</h3>
-                                    <p>Design, Photography</p>
+                                    <h3>Nahrávání ve studiu</h3>
+                                    <p>Tadeášovi jsme umožnili natočit singl v profesionálně vybaveném nahrávacím
+                                        studiu</p>
                                 </div>
                                 <div class="folio-overview">
-                                    <span class="folio-link"><a class="folio-read-more" href="#"
-                                                                data-single_url="portfolio-single.html"><i
-                                            class="fa fa-link"></i></a></span>
-                                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg"
-                                                                  data-lightbox="portfolio"><i
+                                    <span class="folio-link"><a class="folio-read-more" data-toggle="modal"
+                                                                data-target="#myModal1"><i
                                             class="fa fa-search-plus"></i></a></span>
+
                                 </div>
                             </div>
                         </div>
@@ -227,16 +228,15 @@
                         <div class="overlay-content">
                             <div class="overlay-text">
                                 <div class="folio-info">
-                                    <h3>Time Hours</h3>
-                                    <p>Design, Photography</p>
+                                    <h3>Lezecký víkend</h3>
+                                    <p>Pravidelně vyrážíme s dětmi na umělou horolezecku stěnu. Vyvrcholením pak bylo
+                                        víkendové lezení po skalách.</p>
                                 </div>
                                 <div class="folio-overview">
-                                    <span class="folio-link"><a class="folio-read-more" href="#"
-                                                                data-single_url="portfolio-single.html"><i
-                                            class="fa fa-link"></i></a></span>
-                                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg"
-                                                                  data-lightbox="portfolio"><i
+                                    <span class="folio-link"><a class="folio-read-more" data-toggle="modal"
+                                                                data-target="#myModal2"><i
                                             class="fa fa-search-plus"></i></a></span>
+
                                 </div>
                             </div>
                         </div>
@@ -252,22 +252,21 @@
                         <div class="overlay-content">
                             <div class="overlay-text">
                                 <div class="folio-info">
-                                    <h3>Time Hours</h3>
-                                    <p>Design, Photography</p>
+                                    <h3>Víkendové pobyty na hradě Hauenštějně</h3>
+                                    <p>Pravidelně vyrážíme společně s dětmi přiložit ruku k dílu a pomoci při obnově
+                                        zříceniny hradu Hauštejně.</p>
                                 </div>
                                 <div class="folio-overview">
-                                    <span class="folio-link"><a class="folio-read-more" href="#"
-                                                                data-single_url="portfolio-single.html"><i
-                                            class="fa fa-link"></i></a></span>
-                                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg"
-                                                                  data-lightbox="portfolio"><i
+                                    <span class="folio-link"><a class="folio-read-more" data-toggle="modal"
+                                                                data-target="#myModal3"><i
                                             class="fa fa-search-plus"></i></a></span>
-                                        </div>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
             <div class="col-sm-3">
                 <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
                     <div class="folio-image">
@@ -277,16 +276,17 @@
                         <div class="overlay-content">
                             <div class="overlay-text">
                                 <div class="folio-info">
-                                    <h3>Time Hours</h3>
-                                    <p>Design, Photography</p>
+                                    <h3>Lyžování v Jizerských horách</h3>
+                                    <p>Víkend jsme strávili s dětmi z pyšelského domova, s dětmi, které již domov
+                                        opustily, a se studenty školy Michael v Jizerských horách.
+                                        Víkendových nebo jednodeních akcí zaměřených na sport, turistiku, nebo poznávání
+                                        vlasti organizujeme několik každý měsíc.</p>
                                 </div>
                                 <div class="folio-overview">
-                                    <span class="folio-link"><a class="folio-read-more" href="#"
-                                                                data-single_url="portfolio-single.html"><i
-                                            class="fa fa-link"></i></a></span>
-                                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg"
-                                                                  data-lightbox="portfolio"><i
+                                    <span class="folio-link"><a class="folio-read-more" data-toggle="modal"
+                                                                data-target="#myModal4"><i
                                             class="fa fa-search-plus"></i></a></span>
+
                                 </div>
                             </div>
                         </div>
@@ -296,6 +296,109 @@
         </div>
     </div>
 </section><!--/#portfolio-->
+<div id="myModal1" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Nahrávání alba s Tadeášem</h4>
+            </div>
+            <div class="modal-body">
+                <p>S dětmi udržujeme kontakt i poté, co dětský domov opustí. Většinou tak bývá okolo 18 let věku. Tadeáš
+                    však měl štěstí, že se mohl vrátit do rodiny dříve. Protože rád a hlavně dobře zpívá, poprosil nás,
+                    zda bychom mu nemohli zprostředkovat nahrání jedné písničky ve studiu. K tomu došlo v pátek 29.
+                    dubna 2016.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default blue" data-dismiss="modal">Zavřít</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="myModal2" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Horolezecký víkend</h4>
+            </div>
+            <div class="modal-body">
+                <p>Během lezeckých odpolední trávíme s dětmi několik hodin na umělé horolezecké stěně. Akce se běžně
+                    zúčastní děti všech věkových kategorií. Aktivně strávený víkend je pro fyzickou kondici dětí
+                    jednoznačným přínosem. Navíc díky pravidelnému opakování dochází u dětí k výraznému zdokonalování se
+                    v této disciplíně. Vyvrcholením lezeckých odpolední bylo lezení po opravdových skalách, které jsem
+                    pro děti zorganizovali.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Zavřít</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="myModal3" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Dobrovolnické pobyty na hradě Hauenštejně </h4>
+            </div>
+            <div class="modal-body">
+                <p>V rámci víkendových pobytů na hradě Hauenštejně tráví děti čas v pro ně velmi atraktivním prostředí a
+                    učí se pomocí dobrovolnické práce odpovědnosti ke svému okolí. Víkend má následující formát: Během
+                    pátečního večera se ubytujeme v hradní noclehárně. Sobotu a neděli trávíme dobrovolnickou pomocí s
+                    rekonstrukcí a provozem hradu. Činnosti, kterým se věnujeme, jsou příprava dřeva, úklid okolí hradu,
+                    práce v hradním sadu, apod. Z našeho pohledu je práce dobrovolnická činnost, do které se děti sami
+                    zapojí, právě tím, co jim pomůže vytvářet pocit zodpovědnosti ke svému okolí.
+                </p>
+                <p>
+                    Dalším typickým rysem těchto zájezdů je účast studentů Střední a Vyšší odborné školy reklamní a
+                    umělecké tvorby Michael. V průběhu těchto víkendů dochází k navazování vztahů mezi dětmi
+                    vyrůstajícími v ústavní péči a dětmi z rodin, což může být prospěšné v životě všech zúčastněných
+                    dětí.
+                </p>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Zavřít</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="myModal4" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Lyžování v Jizerských horách a další akce</h4>
+            </div>
+            <div class="modal-body">
+                <p>V tomto roce jsme vzali děti na lyže dvakrát. Podobných akcí pořádáme několik desítek každý rok.
+                    Zorganizovali jsme dva letní tábory. Během školního roku
+                    poté několik víkendových pobytů spojených s turistikou na různých místech České republiky. Dále
+                    několik jednodenních turistických i vzdělávacích výletů. Z mnoha uvádíme například víkend v
+                    Krkonoších s výstupem na Sněžku, sportovní víkend na Jesenickém festiválku, Noc kostelů a další.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Zavřít</button>
+            </div>
+        </div>
+
+    </div>
+</div>
 
 
 <section id="pricing">
@@ -360,6 +463,9 @@
 <section id="about-us" class="parallax">
     <div class="container">
         <div class="row">
+            <div class="col-sm-3">
+
+            </div>
             <div class="col-sm-6">
                 <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <h2>Chci být dobrovolníkem</h2>
@@ -373,41 +479,8 @@
                         aliqua.</p>
                 </div>
             </div>
-            <div class="col-sm-6">
-                <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <p class="lead">User Experiances</p>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"
-                                 aria-valuetransitiongoal="95">95%
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
-                        <p class="lead">Web Design</p>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"
-                                 aria-valuetransitiongoal="75">75%
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
-                        <p class="lead">Programming</p>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"
-                                 aria-valuetransitiongoal="60">60%
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <p class="lead">Fun</p>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"
-                                 aria-valuetransitiongoal="85">85%
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-sm-3">
+
             </div>
         </div>
     </div>
@@ -660,6 +733,13 @@
                      data-wow-delay="300ms">
                     <h2>Ozvi se nám</h2>
                     <p>Budeme rádi, když nám necháš zpětnou vazbu</p>
+                    <div class="social-icons">
+                        <ul>
+                            <li><a class="envelope" href="mailto:info@oprise.cz"><i class="fa fa-envelope"></i></a></li>
+                            <li><a class="facebook" href="https://www.facebook.com/oprise/"><i
+                                    class="fa fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
@@ -691,7 +771,7 @@
                     </div>
                     <div class="col-sm-6">
                         <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <p>Najdete nás i na těchto místech:</p>
+                            <p>Najdeš nás i na těchto místech:</p>
                             <ul class="address">
                                 <li><i class="fa fa-map-marker"></i> <span> Adresa:</span> Boženy Koutníkové 2022/D,
                                     Čelákovice, 250 88
@@ -701,18 +781,11 @@
                                         href="mailto:info@oprise.cz">info@oprise.cz</a></li>
                                 <li><i class="fa fa-globe"></i> <span> Web:</span> <a href="#">www.oprise.cz</a>
                                 </li>
+                                <li><i class="fa fa-facebook"></i> <span><a href="https://www.facebook.com/oprise/">https://www.facebook.com/oprise/</a>
+                                </li>
                             </ul>
                         </div>
-                        <div class="social-icons">
-                            <ul>
-                                <li><a class="envelope" href="#"><i class="fa fa-envelope"></i></a></li>
-                                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a class="tumblr" href="#"><i class="fa fa-tumblr-square"></i></a></li>
-                            </ul>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -737,8 +810,10 @@
                 <div class="col-sm-6">
                     <p>&copy; 2016 Opři se.</p>
                 </div>
+
                 <div class="col-sm-6">
-                    <p class="pull-right">Vytvořil <a href="http://www.themeum.com/" style="text-decoration: underline ">Adam
+                    <p class="pull-right">Vytvořil <a href="http://www.themeum.com/"
+                                                      style="text-decoration: underline ">Adam
                         Šenk</a> a tým Opři se</p>
                 </div>
             </div>

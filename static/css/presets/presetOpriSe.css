@@ -32,7 +32,8 @@ a:hover, a:focus {
 #footer, 
 .caption .btn-start:hover, 
 .left-control:hover, 
-.right-control:hover, 
+.right-control:hover,
+div.modal-header,
 .folio-overview a:hover {
   background-color:#E08017;
 }
@@ -59,4 +60,12 @@ a:hover, a:focus {
 
 h2 {
 	color: #0c1852;
+}
+
+.blue{
+	color: #0c1852;
+}
+
+h4.modal-title {
+	color: white;
 }
