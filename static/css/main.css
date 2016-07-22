@@ -105,6 +105,43 @@ section {
 }
 
 
+.container-table
+{
+  display:table;
+  padding-bottom: 10000px;
+  margin-bottom: -10000px;
+  height: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.row-table
+{
+  height: 100%;
+  display: table-row;
+}
+
+.height-full
+{
+  height: 100%;
+}
+
+.btn-stick
+{
+  bottom: 20px;
+  position: absolute;
+  left: 10%;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.no-float
+{
+  float: none; /* thanks baxabbit */
+  display: table-cell;
+}
+
+
 
 .heading-portfolio {
   padding-top:20px;
