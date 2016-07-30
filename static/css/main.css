@@ -108,8 +108,8 @@ section {
 .container-table
 {
   display:table;
-  padding-bottom: 10000px;
-  margin-bottom: -10000px;
+  padding-bottom: 1000px;
+  margin-bottom: -1000px;
   height: 100%;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -124,6 +124,16 @@ section {
 .height-full
 {
   height: 100%;
+}
+
+.height-percent-20
+{
+  height: 12%;
+}
+
+.height-percent
+{
+  height: 64%;
 }
 
 .btn-stick
