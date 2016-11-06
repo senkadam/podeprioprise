@@ -398,22 +398,22 @@ section {
 /*************************
 ********About CSS*******
 **************************/
-#about-us {
+#dobrovolnikem {
   background-image: url(../images/about-bg.jpg);
   padding: 90px 0;
 }
 
-#about-us h2 {
+#dobrovolnikem h2 {
   margin-top: 0;
   color: #fff;
 }
 
-#about-us .lead {
+#dobrovolnikem .lead {
   font-size: 16px;
   margin-bottom: 10px;
 }
 
-#about-us h1 {
+#dobrovolnikem h1 {
   margin-bottom: 30px;
 }
 
@@ -445,17 +445,17 @@ section {
 ********portfolio CSS*****
 **************************/
 
-#portfolio .container-fluid, 
-#portfolio .col-sm-3  {
+#jakjsmepomohli .container-fluid, 
+#jakjsmepomohli .col-sm-3  {
   overflow: hidden;
   padding: 0;
 }
 
-#portfolio .folio-item {
+#jakjsmepomohli .folio-item {
   position: relative;
 }
 
-#portfolio .overlay {
+#jakjsmepomohli .overlay {
   background-color: #000;
   color: #fff; 
   left: 0;
@@ -517,7 +517,7 @@ section {
   transition: all 0.8s ease-in-out;
 }
 
-#portfolio .folio-item:hover .folio-image {
+#jakjsmepomohli .folio-item:hover .folio-image {
   -webkit-transform: scale(1.5) rotate(-15deg);
   transform: scale(1.5) rotate(-15deg);
 }
@@ -526,18 +526,18 @@ section {
   width: 100%;
 }
 
-#portfolio .folio-item:hover .overlay {
+#jakjsmepomohli .folio-item:hover .overlay {
   opacity: 0.8;
   bottom: 0;
   height: 100%;
 }
 
-#portfolio .folio-item:hover .folio-overview .folio-expand {
+#jakjsmepomohli .folio-item:hover .folio-overview .folio-expand {
   margin-top: 0;
   margin-left:0;
 }
 
-#portfolio .folio-item:hover .overlay .folio-info {
+#jakjsmepomohli .folio-item:hover .overlay .folio-info {
   opacity: 1;  
   margin-bottom:0;
   margin-top:0;
@@ -633,7 +633,7 @@ section {
   background-color: #ff6b00;
 }
 
-#team .img-responsive {
+#tym .img-responsive {
   width: 100%;
 }
 
@@ -731,17 +731,17 @@ div.member-info {
 /*************************
 ********Twitter CSS*******
 **************************/
-#twitter {
+#profirmy {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ),url(../images/twitter-bg.jpg);
   background-position: center 70%;
 }
 
-#twitter > div {
+#profirmy > div {
   text-align: center;
   position: relative;
 }
 
-#twitter > div.inner {
+#profirmy > div.inner {
   width: 50%;
   margin: 0 auto;
 }
@@ -750,7 +750,7 @@ img.company {
 height: 100px;
 }
 
-#twitter-carousel {
+#profirmy-carousel {
   position: relative;
   z-index: 15
 }
@@ -772,11 +772,11 @@ height: 100px;
 }
 
 
-#twitter-carousel .item {
+#profirmy-carousel .item {
   padding: 0 55px;
 }
 
-#twitter-carousel .item a {
+#profirmy-carousel .item a {
   color: #fff;
 }
 
@@ -926,7 +926,7 @@ height: 100px;
 **********Contact CSS*****
 **************************/
 
-#contact {
+#kontakt {
   padding-top: 45px;
   padding-bottom: 0;
 }

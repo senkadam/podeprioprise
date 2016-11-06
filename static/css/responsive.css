@@ -175,7 +175,7 @@
 		margin-bottom: 40px;
 		padding: 20px;
 	}
-	#twitter {
+	#profirmy {
 		padding-bottom: 75px;
 	}
 	.twitter-left-control, 
@@ -193,7 +193,7 @@
 	.twitter-right-control {
 		right: 40%
 	}
-	#blog {
+	#cojsteumoznili {
 		overflow: hidden;
 	}
 	.entry-header h2 {
@@ -228,7 +228,7 @@
   
 	.team-members .col-sm-3, 
 	.pricing-table .col-sm-3, 
-	#portfolio .col-sm-3, 
+	#jakjsmepomohli .col-sm-3,
 	.blog-posts .col-sm-4 {
 		width:100%;
 		float: none;
