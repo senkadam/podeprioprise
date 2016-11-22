@@ -42,6 +42,15 @@
 	}
 }
 
+@media (max-width: 900px) {
+
+	.no-float {
+		float: none; /* thanks baxabbit */
+		display: table;
+	}
+
+}
+
 /* xs */
 @media (max-width: 1300px) {
 	body {
